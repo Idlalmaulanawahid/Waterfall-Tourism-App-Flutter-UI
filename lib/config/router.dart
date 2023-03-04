@@ -9,6 +9,8 @@ class AppRouter {
       case '/':
         return GetStartedPage.route();
       case MainPage.routName:
+
+        /// test
         return MainPage.route();
       case HomePage.routName:
         return HomePage.route();
